@@ -4,9 +4,16 @@ def leetspeak(val)
   val_array.each do |letter|
     if letter == "e"
       new_array.push(3)
+    elsif letter == "I"
+      new_array.push(1)
+    elsif
+      letter == "o"
+      new_array.push(0)
+    elsif letter == "i"
+      new_array.push("i")
     elsif
       new_array.push(letter)
     end
   end
-  new_array.join("")
+    new_array.join("")
 end
